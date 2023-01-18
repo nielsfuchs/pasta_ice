@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<batchjobs version="1.6.3" save_project="true">
+  <job name="BuildDem" target="all">
+    <downscale>2</downscale>
+    <filter_mode>1</filter_mode>
+    <reuse_depth>true</reuse_depth>
+    <source_data>6</source_data>
+  </job>
+  <job name="BuildOrthomosaic" target="all">
+    <surface_data>4</surface_data>
+  </job>
+</batchjobs>
