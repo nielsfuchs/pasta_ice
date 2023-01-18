@@ -21,7 +21,7 @@ Code is prepared to be used with Python3 installations.
 
 Some files were to big for Github. They need to be downloaded from: 
 
-* Training data for PASTA-ice, and radiometric calibration files used in the algorithm including the vignette correction and confidence conversion matrix are available under DOI: https: //doi.org/10.5281/zenodo.7513631.
+* Training data for PASTA-ice, and radiometric calibration files used in the algorithm including the vignette correction and confidence conversion matrix are available under DOI: https://doi.org/10.5281/zenodo.7513631.
 
 * Radiometric calibrations are available under DOI: https://doi.org/10.5281/zenodo.7513653.
 
@@ -91,7 +91,9 @@ Run script `04_Sieve_and_combine_P3.py {classified_geotiff}.tiff`.
 In the last prepared processing step [05_Sub_and_mainclasses_P3.py](05_Sub_and_mainclasses_P3.py), main class objects are retrieved out of the subclasses and saved as shapefile containing a polygon table. For each polygon, the areal fractions of subclasses are calculated, classification uncertainty propagation is determined and pond structures are analysed if they rather belong to submerged ice depending on their position and neighbours. They are relabeled as submerged ice if they adjoining a larger area of open water. \
 Run script `05_Sub_and_mainclasses_P3.py {classified_geotiff}.tiff`.
 
-## The folder `helpful` contains some handy scripts to post-process the classification, retrieve albedo and pond depth, and an example on how to add additional training data or further classes to PASTA-ice.
+## Additional scripts
+
+The folder `helpful` contains some handy scripts to post-process the classification, retrieve albedo and pond depth, and an example on how to add additional training data or further classes to PASTA-ice.
 
 
 
