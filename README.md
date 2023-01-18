@@ -3,7 +3,10 @@
 **Proportional Analysis of Surface Types in Arctic Sea Ice Images**
 
 Niels Fuchs, 2021
+
 (last update January 2023)
+
+For any questions/feedback please open a New Issue.
 
 ## Preface
 
